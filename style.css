@@ -1,7 +1,140 @@
 :root{
-    --white: #FFFFFF;
+    --white-color: #fff;
+    --main-color: #2F303A;
     --black: #212121;
-    --gray: #757575;
+    --grey: #757575;
     --blue: #2196F3;
-    --white-black: #2F303A;
+}
+
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    outline: gold;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--black);
+
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+.nav-item{
+    color: var(--black);
+}
+.nav-item:hover,
+.nav-item:focus{
+    color: var(--blue);
+}
+
+.hiden-title{
+    display: none;
+}
+
+.address-link{
+    color: var(--grey);
+}
+.address-link:hover,
+.address-link:focus{
+    color: var(--blue);
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    color: var(--blue);
+}
+
+
+
+.main-section{
+    background-color: var(--main-color);
+
+}
+.title{
+    text-align: center;
+    color: var(--white-color);
+}
+.button{
+    background-color: var(--blue);
+    color: var(--white-color); 
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+.footer{
+    background-color: var(--main-color);
+}
+
+.support{
+    text-align: center;
+    
+}
+
+
+.support-button{
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 125px;
+    height: 38px;
+    padding: 6 22px;
+    border: none;
+}
+.support-button:hover,
+.support-button:focus{
+    background-color: #2196F3;
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 1.6;
+    width: 125px;
+    height: 38px;
+    padding: 6 25px;
+    border: none;
+}
+
+
+
+
+
+.footer-list{
+    color: var(--white-color);
+}
+
+
+.photo{
+    width: 370px;
+    height: 294px;
+}
+.photo-people{
+    width: 270px;
+    height: 260px;
+}
+
+
+
+
+
+
+
+.text{
+    color: var(--grey);
 }

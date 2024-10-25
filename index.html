@@ -4,99 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header
-    class="white">
-        <a class="blue" href="/index.html">WebStudio</a>
-        <ul>
-            <li><a class="blue" href="/"></a>Студія</li>
-            <li><a class="black" href="/"></a>Портфоліо</li>
-            <li><a class="black" href="/"></a>Контакти</li>
-        </ul>
+    <header class="header container">
+        <nav class="navigation">
+            <a class="logo" href="/index.html">WebStudio</a>
+            <ul class="nav-list">
+                <li><a class="nav-item" href="/index.html">Студія</a></li>
+                <li><a class="nav-item" href="./portfolio.html">Портфоліо</a></li>
+                <li><a class="nav-item" href="/index.html">Контакти</a></li>
+            </ul>
+        </nav>
         <address>
-            <ul>
-                <li>
-                    <a class="blue" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <ul class="address-list">
+                <li class="address-item">
+                    <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a class="gray" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                <li class="address-item">
+                    <a class="address-link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
     </header>
-    <main>
-        <section
-         class="white-black">
-            <h1 class="white">Ефективні рішення для вашого бізнесу</h1>
-            <button class="blue" type="button">Замовити послугу</button>
+    <main class="main">
+        <section class="main-section container">
+            <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="button" type="button">Замовити послугу</button>
         </section>
-        <section class="white">
+        <section class="support-section container">
             <ul>
                 <li>
-                    <h4 class="black">УВАГА ДО ДЕТАЛЕЙ</h4>
-                    <h5 class="gray">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</h5>
+                    <h4 class="support-title">УВАГА ДО ДЕТАЛЕЙ</h4>
+                    <h5 class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</h5>
                 </li>
                 <li>
-                    <h4 class="black">ПУНКТУАЛЬНІСТЬ</h4>
-                    <h5 class="gray">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</h5>
+                    <h4 class="support-title">ПУНКТУАЛЬНІСТЬ</h4>
+                    <h5 class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</h5>
                 </li>
                 <li>
-                    <h4 class="black">ПЛАНУВАННЯ</h4>
-                    <h5 class="gray">Так само консультація з широким активом значною мірою зумовлює.</h5>
+                    <h4 class="support-title">ПЛАНУВАННЯ</h4>
+                    <h5 class="text">Так само консультація з широким активом значною мірою зумовлює.</h5>
                 </li>
                 <li>
-                    <h4 class="black">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                    <h5 class="gray">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</h5>
+                    <h4 class="support-title">СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+                    <h5 class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</h5>
                 </li>
             </ul>
-            <h2 class="black">Чим ми займаємося</h2>
+            <h2 class="support">Чим ми займаємося</h2>
             <ul>
-                <li><img src="/img/photo1.png" alt="photo1" width="380"></li>
-                <li><img src="/img/photo2.png" alt="photo2" width="380"></li>
-                <li><img src="/img/photo3.png" alt="photo3" width="380"></li>
+                <li><img class="photo" src="/img/photo1.png" alt="photo1" width="380"></li>
+                <li><img class="photo" src="/img/photo2.png" alt="photo2" width="380"></li>
+                <li><img class="photo" src="/img/photo3.png" alt="photo3" width="380"></li>
             </ul>
         </section>
-        <section 
-        class="white-">
-            <h2 class="black">Наша команда</h2>
+        <section class="section container">
+            <h2>Наша команда</h2>
             <ul>
                 <li>
-                    <img src="/img/first.png" alt="photo Ihor Demjanenko" width="380">
-                    <h4 class="black">Ігор Дем'яненко</h4>
-                    <h5 class="gray">Product Designer</h5>
+                    <img class="photo-people" src="/img/first.png" alt="photo Ihor Demjanenko" width="380">
+                    <h4 class="photo-name">Ігор Дем'яненко</h4>
+                    <h5 class="text">Product Designer</h5>
                 </li>
                 <li>
-                    <img src="/img/second.png" alt="photo Olga Repina" width="380">
-                    <h4 class="black">Ольга Рєпіна</h4>
-                    <h5 class="gray">Frontend Developer</h5>
+                    <img class="photo-people" src="/img/second.png" alt="photo Olga Repina" width="380">
+                    <h4 class="photo-name">Ольга Рєпіна</h4>
+                    <h5 class="text">Frontend Developer</h5>
                 </li>
                 <li>
-                    <img src="/img/third.png" alt="photo Mykola Tarasov" width="380">
-                    <h4 class="black">Микола Тарасов</h4>
-                    <h5 class="gray">Marketing</h5>
+                    <img class="photo-people" src="/img/third.png" alt="photo Mykola Tarasov" width="380">
+                    <h4 class="photo-name">Микола Тарасов</h4>
+                    <h5 class="text">Marketing</h5>
                 </li>
                 <li>
-                    <img src="/img/four.png" alt="photo Mykhailo Yermakov" width="380">
-                    <h4 class="black">Михайло Єрмаков</h4>
-                    <h5 class="gray">UI Designer</h5>
+                    <img class="photo-people" src="/img/four.png" alt="photo Mykhailo Yermakov" width="380">
+                    <h4 class="photo-name">Михайло Єрмаков</h4>
+                    <h5 class="text">UI Designer</h5>
                 </li>
             </ul>
         </section>
     </main>
-    <footer 
-    class="white-black">
-        <a class="blue" href="./index.html">WebStudio</a>
-        <address>
+    <footer class="footer container">
+        <a class="logo" href="./index.html">WebStudio</a>
+        <address >
             <ul>
-                <li class="white">
+                <li class="footer-list">
                     м. Київ, пр-т Лесі Українки, 26
                 </li>
-                <li class="white">
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li>
+                    <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li class="white">
-                    <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                <li>
+                    <a class="address-link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
