@@ -53,7 +53,7 @@ a{
 }
 
 .nav-item:last-child{
-    padding-right: 344px;
+    margin-right: 344px;
 }
 
 .href-item{
@@ -124,6 +124,7 @@ a{
 .photo-item{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .support-list{
     width: 370px;
@@ -273,11 +274,31 @@ a{
 .img-name{
     color: var(--grey);
     margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+.img-name:nth-child(3){
+    color: var(--grey);
+    margin-bottom: 50px;
+    margin-right: 0;
+}
+
+.img-name:last-child{
+    color: var(--grey);
+    margin-bottom: 50px;
+    margin-right: 0;
 }
 
 .name-bild{
     color: var(--grey);
     margin-bottom: 114px;
+    margin-right: 30px;
+}
+
+.name-bild:last-child{
+    color: var(--grey);
+    margin-bottom: 114px;
+    margin-right: 0;
 }
 
 .photo-list{
